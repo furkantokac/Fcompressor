@@ -13,8 +13,10 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    foldercompressor.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    foldercompressor.h
 
 FORMS    += mainwindow.ui
